@@ -1,0 +1,172 @@
+body{
+    background-color: black;
+    transition: all 0.6s ease;
+    margin-bottom: 40px;
+    
+}
+
+header{
+    font-family: ariel;
+    font-size: 60px;
+    color: white;
+    font-weight: bolder;
+    margin: 30px 0px;
+    text-align: center;
+    border: 2px;
+    border-right: 10px;
+    border-color: whitesmoke;
+    transition: all 0.6s ease;
+    color: #dbdff2;
+}
+
+header img{
+    
+    width: 70px;
+    height: 70px;
+}
+
+header:hover{
+    transition: all 0.6s ease;
+    color: #a4acce;
+}
+
+#main_content{
+    width:980px;
+    margin:auto;
+    background:#dbdff2;
+    transition: all 0.5s ease;
+    font-family: sans-serif;
+}
+
+#table{
+    width: 980px;
+    margin: auto;
+    text-align: center;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+
+#table tr td img, #insert, #save, #insert_button td img {
+    height: 30px;
+    width: 30px;
+    
+}
+
+#add{
+    width: 133px;
+}
+
+#table tr{
+    transition: all 0.6s ease;
+    background:#dbdff2;
+    height: 55px;
+}
+
+#table tr td{
+    transition: all 0.6s ease;
+    padding: 10px;
+    border-bottom-color: grey;
+    border-right-color: grey;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+    border-bottom-style: solid;
+    border-right-style: solid;
+    margin: 30px;
+    font-size: 18;    
+}
+
+#table tr:hover{
+    transition: all 0.6s ease;
+    background-color: #B7C0E5;
+}
+
+#table tr td:hover{
+    transition: all 0.6s ease;
+    background: #a4acce;
+}
+
+#heading th{
+    transition: all 0.6s ease;
+    height: 40px;
+    color: #fff;
+    background-color: #000;
+    font-size: 30;
+    font-weight: bold;
+}
+
+#heading:hover th{
+    transition: all 0.6s ease;
+    background-color: #141414;
+}
+
+#heading th:hover{
+    transition: all 0.6s ease;
+    background: #2b2b2b;
+}
+
+
+.button input{
+    padding: 3px 3px;
+    background-color: #eaeaea;
+}
+
+.button:hover input{
+    background-color: #f2f2f2;
+}
+
+#new_row{
+    transition: all 0.6s ease;
+    display: table-row;
+}
+
+#newRow{
+    display: none;
+}
+
+#newRow td input{
+    transition: all 0.6s ease;
+    background: #dbdff2;        
+    border-style: none;
+    text-align: center;
+    font-size: 16px;
+}
+
+#newRow:hover td input{
+    transition: all 0.6s ease;
+    background: #B7C0E5;        
+    
+}
+
+#newRow td:hover input{
+    transition: all 0.6s ease;
+    background: #a4acce;        
+}
+
+.rows td input{
+    transition: all 0.6s ease;
+    background: #dbdff2;        
+    border-style: none;
+    text-align: center;
+    font-size: 16px;
+}
+
+.rows:hover td input{
+    transition: all 0.6s ease;
+    background: #B7C0E5;        
+    
+}
+
+.rows td:hover input{
+    transition: all 0.6s ease;
+    background: #a4acce;        
+}
+
+footer{
+    color: #fff;
+    text-align: center;
+    margin: 20px;
+    font-family: haveltica;
+    font-size: 12px;
+}
